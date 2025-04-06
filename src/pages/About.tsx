@@ -1,10 +1,11 @@
 import Carousel from "../components/Carousel";
+import photo1 from '../assets/photos/photo1.jpg';
 
 export default function About() {
   return (
     <section className="max-w-7xl mx-auto py-20 mt-30 mb-30">
       <div className="flex flex-col md:flex-row items-center gap-8 mb-30">
-        <div className="rounded-full w-100 h-100 overflow-hidden shadow-xl"><img src="src/assets/photos/photo1.jpg" alt="Tomasz Stewarski" className="object-cover shadow-md scale-170 translate-x-3" /></div>
+        <div className="rounded-full w-100 h-100 overflow-hidden shadow-xl"><img src={photo1} alt="Tomasz Stewarski" className="object-cover shadow-md scale-170 translate-x-3" /></div>
         <div>
           <h2 className="text-3xl font-bold mb-4">O mnie</h2>
           <p className="text-gray-700">

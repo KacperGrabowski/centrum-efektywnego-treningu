@@ -1,10 +1,12 @@
+import photo1 from '../assets/photos/photo1.jpg';
+
 export default function Home() {
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center text-center">
       <div
         className="w-[70%] h-full absolute filter brightness-175 transition-all duration-500 bg-no-repeat bg-cover"
         style={{
-          backgroundImage: 'url(src/assets/photos/photo1.jpg), linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%)',
+          backgroundImage: `url(${photo1}), linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%)`,
           backgroundPosition: 'center 30%',
         }}
       />

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Certificate, { CertificateType } from './Certificate';
-import { certificates } from './certificates.ts';
+import Certificate from './Certificate';
+import { certificates } from './certificates';
 
 const Carousel: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);

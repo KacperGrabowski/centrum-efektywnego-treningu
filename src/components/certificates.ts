@@ -1,4 +1,20 @@
 import { CertificateType } from './Certificate';
+import cert1 from "../assets/certificates/cert1.jpg";
+import cert2 from "../assets/certificates/cert2.jpg";
+import cert3 from "../assets/certificates/cert3.jpg";
+import cert4 from "../assets/certificates/cert4.jpg";
+import cert5 from "../assets/certificates/cert5.jpg";
+import cert6 from "../assets/certificates/cert6.jpg";
+import cert7 from "../assets/certificates/cert7.jpg";
+import cert8 from "../assets/certificates/cert8.jpg";
+import cert9 from "../assets/certificates/cert9.jpg";
+import akademiaHipertrofii from "../assets/logos/akademia-hipertrofii.svg";
+import fitAcademy from "../assets/logos/fit-academy.svg";
+import gsa from "../assets/logos/global-sport-academy.png";
+import podsztangapl from "../assets/logos/podsztanga-pl.svg";
+import prawieDzik from "../assets/logos/prawie-dzik.png";
+import vademecumHipertrofii from "../assets/logos/vademecum-hipertrofii.svg";
+import koncepcjaHipertroficzna from  "../assets/logos/koncepcja-hipertroficzna.svg";
 
 export const certificates: CertificateType[] = [
     {
@@ -7,9 +23,9 @@ export const certificates: CertificateType[] = [
         instructors: ["Paweł Głuchowski"],
         dateIssued: "12-07-2022",
         logos: [
-            "src/assets/logos/akademia-hipertrofii.svg"
+            akademiaHipertrofii
         ],
-        certificateImage: "src/assets/certificates/cert1.jpg",
+        certificateImage: cert1,
     },
     {
         trainingName: "Trener personalny i instruktor siłowni",
@@ -17,9 +33,9 @@ export const certificates: CertificateType[] = [
         instructors: [],
         dateIssued: "24-07-2021",
         logos: [
-            "src/assets/logos/fit-academy.svg"
+            fitAcademy
         ],
-        certificateImage: "src/assets/certificates/cert2.jpg",
+        certificateImage: cert2,
     },
     {
         trainingName: "Prowadzenie klienta krok po kroku",
@@ -27,9 +43,9 @@ export const certificates: CertificateType[] = [
         instructors: [],
         dateIssued: "08-03-2023",
         logos: [
-            "src/assets/logos/global-sport-academy.png"
+            gsa
         ],
-        certificateImage: "src/assets/certificates/cert3.jpg",
+        certificateImage: cert3,
     },
     {
         trainingName: "Trójbój Siłowy",
@@ -37,9 +53,9 @@ export const certificates: CertificateType[] = [
         instructors: ["Paweł Jurczyński", "Rafał Ziewiecki"],
         dateIssued: "11-06-2022",
         logos: [
-            "src/assets/logos/podsztanga-pl.svg"
+            podsztangapl
         ],
-        certificateImage: "src/assets/certificates/cert4.jpg",
+        certificateImage: cert4,
     },
     {
         trainingName: "Zdrowa i skuteczna redukcja",
@@ -47,9 +63,9 @@ export const certificates: CertificateType[] = [
         instructors: ["Marek Prawdzik"],
         dateIssued: "11-04-2022",
         logos: [
-            "src/assets/logos/prawie-dzik.png"
+            prawieDzik
         ],
-        certificateImage: "src/assets/certificates/cert5.jpg",
+        certificateImage: cert5,
     },
     {
         trainingName: "Układanie planu dietetycznego - krok po kroku",
@@ -57,9 +73,9 @@ export const certificates: CertificateType[] = [
         instructors: [],
         dateIssued: "23-06-2022",
         logos: [
-            "src/assets/logos/global-sport-academy.png"
+            gsa
         ],
-        certificateImage: "src/assets/certificates/cert6.jpg",
+        certificateImage: cert6,
     },
     {
         trainingName: "Skuteczny trening kończyn dolnych",
@@ -67,9 +83,9 @@ export const certificates: CertificateType[] = [
         instructors: [],
         dateIssued: "19-04-2022",
         logos: [
-            "src/assets/logos/global-sport-academy.png"
+            gsa
         ],
-        certificateImage: "src/assets/certificates/cert7.jpg",
+        certificateImage: cert7,
     },
     {
         trainingName: "Układanie planu treningowego - krok po kroku",
@@ -77,9 +93,9 @@ export const certificates: CertificateType[] = [
         instructors: [],
         dateIssued: "06-05-2022",
         logos: [
-            "src/assets/logos/global-sport-academy.png"
+            gsa
         ],
-        certificateImage: "src/assets/certificates/cert8.jpg",
+        certificateImage: cert8,
     },
     {
         trainingName: "Biomechanika w hipertrofii",
@@ -87,10 +103,10 @@ export const certificates: CertificateType[] = [
         instructors: ["Paweł Głuchowski", "Krystian Dobropolski"],
         dateIssued: "31-01-2023",
         logos: [
-            "src/assets/logos/akademia-hipertrofii.svg",
-            "src/assets/logos/vademecum-hipertrofii.svg",
-            "src/assets/logos/koncepcja-hipertroficzna.svg",
+            akademiaHipertrofii,
+            vademecumHipertrofii,
+            koncepcjaHipertroficzna
         ],
-        certificateImage: "src/assets/certificates/cert9.jpg",
+        certificateImage: cert9,
     },
 ];
