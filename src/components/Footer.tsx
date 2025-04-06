@@ -7,7 +7,8 @@ import { useLocation } from 'react-router-dom';
 export default function Footer() {
   const location = useLocation();
 
-  const isDark = location.pathname !== '/';
+  const isDark = location.pathname !== '/centrum-efektywnego-treningu/';
+  
   return (
     <footer className={`h-30 w-full  py-4 px-6 bottom-0 z-50 ${isDark ? 'bg-gradient-to-r from-green-900 to-teal-950 text-white' : 'bg-transparent text-gray-800 fixed'}`}>
       <div className="h-full max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-sm text-white">
