@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className={`w-full shadow-xl px-6 fixed top-0 z-50 transition-all duration-500 ${isDark ? 'bg-gradient-to-r from-teal-700 to-blue-800 text-white' : 'bg-transparent text-gray-800'}`}>
       <div className="max-w-7xl mx-auto flex items-center justify-between h-30">
-        <Link to="/" className="h-full">
+        <Link to="/centrum-efektywnego-treningu/" className="h-full">
         <img
             src={logo}
             alt="Logo"
